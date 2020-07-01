@@ -139,6 +139,11 @@ body{
 }
 .latest-work-content .work img{
     width: 90%;
+    border-top: 4px solid;
+    border-left: 4px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    box-shadow: 26px 34px 40px gray;
 }
 
 /*latest work section ends*/
@@ -234,8 +239,7 @@ text-align: center;
 .social-network-content .soical img{
     height: 100%;
     width: 40%;
-    background-color: white;
-    padding-left:23%;
+    padding-left:20%;
 }
 
 .footer-section p{
