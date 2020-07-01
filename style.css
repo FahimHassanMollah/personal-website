@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+
 }
 /*header section starts*/
 .header-section{
@@ -144,13 +145,107 @@ body{
 
 
 
+/*footer section starts*/
+
+.footer-section{
+    padding-top: 40px;
+    height: 600px;
+    padding-bottom: 20px;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-section h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+
+}
+.footer-section h3{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 70px;
+
+}
+.footer-section h4{
+    font-weight: 300;
+    text-align: center;
+    color: #707070;
+
+}
+.footer-section blockquote{
+    padding: 10px 80px;
+    text-align: center;
+    display: block;
+}
+.footer-section .quote{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 21px;
+}
+.footer-section .quote p{
+    font-weight: 500;
+    color: #333333;
+    text-align: center;
 
 
+}
+.footer-section .email{
+    padding-top: 8px;
+    padding-bottom: 18px;
+
+    width: 40%;
+    margin: 0 auto;
+    background-color:#EC4E87 ;
+    color: white;
+}
+.footer-section .email h4{
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+.footer-section .email h2{
+text-align: center;
+}
 
 
+.extra-section h1{
+    font-size: 30px;
+    font-weight: 300;
+    color: #707070;
+}
+.social-network-content{
+    /*width: 100%;*/
+    padding-left: 8%;
+    margin-left: 2%;
+}
+.social-network-content .soical{
+    float: left;
+    width: 30%;
+    height: 100%;
 
 
+}
+.social-network-content .soical a{
+    /*height: 100%;*/
+    padding: 0;
+    height: 100%;
+}
+.social-network-content .soical img{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    padding-left:23%;
+}
 
+.footer-section p{
+    clear: both;
+    text-align: center;
+    color: #707070;
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
 
 
 
