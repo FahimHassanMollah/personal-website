@@ -4,9 +4,10 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+/*header section starts*/
 .header-section{
     height: 600px;
-    margin-top: 50px;
+
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,6 +32,7 @@ body{
     margin-bottom: 30px;
 }
 .header-text-content{
+    margin-top: 50px;
     width: 40%;
     float: left;
     margin-left: 5%;
@@ -46,11 +48,60 @@ body{
     font-weight: 700;
 }
 .header-image-content{
+    padding-top: 50px;
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
 .header-image-content img{
-    width: 100%;
+    width: 80%;
 }
+/*header section ends*/
+
+
+
+/*biography-section-starts*/
+.biography-section{
+    height: 600px;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.biography-image-content{
+    padding-top: 40px;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.biography-image-content img{
+    width: 80%;
+    float: left;
+}
+.biography-text-content{
+    margin-top: 60px;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 4%;
+}
+.biography-text-content h2{
+    font-weight: 400;
+    font-size: 40px;
+}
+.biography-text-content p{
+    margin-bottom: 50px;
+    color: #707070;
+}
+.biography-text-content a{
+
+    text-decoration: none;
+    background-color:#EC4C7A;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+
