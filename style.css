@@ -175,26 +175,25 @@ body{
 
 }
 .footer-section blockquote{
-    padding: 10px 80px;
+    padding: 0px 80px;
     text-align: center;
     display: block;
 }
 .footer-section .quote{
     width: 50%;
     margin: 0 auto;
-    padding-bottom: 21px;
+    padding-bottom: 10px;
 }
 .footer-section .quote p{
     font-weight: 500;
     color: #333333;
     text-align: center;
-
+    padding-top: 50px;
 
 }
 .footer-section .email{
     padding-top: 8px;
     padding-bottom: 18px;
-
     width: 40%;
     margin: 0 auto;
     background-color:#EC4E87 ;
